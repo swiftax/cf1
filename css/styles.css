@@ -24,6 +24,14 @@ body {
 	color: #376a74;
 }
 
+.subpage .nav li a {
+	color: #fff;
+}
+
+.faq .nav li a {
+	color: #000;
+}
+
 .nav a:hover {
 	color: #bc964f;
 	-webkit-transition: color 600ms;
@@ -34,7 +42,7 @@ body {
 	color: #FFF;
 }
 
-.contact {
+.subpage {
 	background-image: url('../img/piano.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -42,16 +50,15 @@ body {
 }
 
 .social > button {
-	background-color: #000;
-	border: 2px #fff solid;
-	height: 2rem;
-	width: 6rem;
+	background-color: transparent;
+	border: 0.25rem #fff solid;
+	height: 4rem;
+	width: 8rem;
 }
 
 .social > button > a{
 	text-decoration: none;
 	color: #fff;
-
 }
 
 footer {
@@ -59,8 +66,27 @@ footer {
 	color: #fff;
 }
 
-.contact-nav ul li a {
+.subpage-nav ul li a {
 	color: #fff;
+}
+
+.glyphicon:hover {
+	color: #fff;
+	-webkit-transition: color 1200ms;
+}
+
+#headingOne,
+#headingTwo,
+#headingThree {
+	background-color: #bc964f;
+	color: #fff;
+}
+
+.faq {
+	background-image: url('../img/computer.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
 }
 
 /* TYPOGRAPHY */
@@ -170,8 +196,18 @@ footer {
 	padding: 2.5% 0;
 }
 
+.subpage {
+	margin-top: 2.5%;
+}
+.subpage-h1  {
+	text-align: center;
+	font-size: 4em;
+	text-transform: uppercase;
+	margin-top: 5%;
+}
+
 .big-paragraph {
-	margin: 10% 20% 0 20%;
+	margin: 2.5% 20% 0 20%;
 	text-align: center;
 }
 
@@ -204,3 +240,5 @@ footer {
 .social > button {
 	margin: 0 0.25em;
 }
+
+
