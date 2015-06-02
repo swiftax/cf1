@@ -160,6 +160,10 @@ p {
 	margin: 0 0.75rem;
 }
 
+.intro {
+	width: 35rem;
+}
+
 footer {
 	text-align: center;
 	margin-top: 2.5%;
