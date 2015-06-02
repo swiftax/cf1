@@ -77,6 +77,10 @@ p {
 	margin: 0 0.75rem;
 }
 
+footer {
+	text-align: center;
+}
+
 .big-paragraph {
 	margin: 10% 20% 0 20%;
 	text-align: center;
