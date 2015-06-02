@@ -57,7 +57,10 @@ body {
 footer {
 	background-color: #376a74;
 	color: #fff;
+}
 
+.contact-nav ul li a {
+	color: #fff;
 }
 
 /* TYPOGRAPHY */
@@ -94,6 +97,9 @@ footer p {
 	text-transform: uppercase;
 }
 
+.header h1 {
+	text-transform: uppercase;
+}
 
 /* POSITIONING */
 
@@ -133,6 +139,7 @@ p {
 
 .header {
 	margin-bottom: 40px;
+	margin-top: 7.5%;
 }
 
 .header h1 {
