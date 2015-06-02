@@ -1,12 +1,36 @@
-/* Background and Colors */
-
+/* BACKGROUNDS AND COLORS */
 body {
 	background-color: #fffeea;
 	color: #34495e;
 }
 
+.jumbotron {
+	background-image: url('../img/ocean.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 512px;
+}
+
+.jumbotron .name,
+.subheading {
+	color: #fff;
+}
+
+.nav {
+	background-color: transparent;
+}
+
+.nav ul li a {
+	color: #376a74;
+}
+
+.nav a:hover {
+	color: #bc964f;
+	-webkit-transition: color 600ms;
+}
+
 .skills {
-	background-color: #5ad4c2;
+	background-color: #376a74;
 	color: #FFF;
 }
 
@@ -30,13 +54,65 @@ body {
 
 }
 
+footer {
+	background-color: #376a74;
+	color: #fff;
 
-/* Positioning */
-
-* {
-	box-sizing: border-box;
 }
 
+/* TYPOGRAPHY */
+
+* {
+	font-family: 'PT Sans', 'Roboto', sans-serif;
+}
+
+.nav ul li a {
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+.intro p {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	font-size: 3em;
+	font-weight: 100;
+}
+
+
+.skills h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+footer p {
+	text-transform: uppercase;
+}
+
+
+/* POSITIONING */
+
+.nav {
+	position: fixed;
+	width: 100%;
+	top: 0; /* To make sure your navigation bar stays in the topmost position (the distance from the top of the viewport should be zero) add a top property with a value of 0: */
+	left: 0;
+}
+
+.nav ul {
+	float: right;
+	margin-right: 3em;
+}
+
+.nav ul li {
+	display: inline-block;
+	padding: 20px 10px 20px;
+}
 
 .container {
 	width: 80%;
@@ -79,6 +155,8 @@ p {
 
 footer {
 	text-align: center;
+	margin-top: 2.5%;
+	padding: 2.5% 0;
 }
 
 .big-paragraph {
@@ -115,25 +193,3 @@ footer {
 .social > button {
 	margin: 0 0.25em;
 }
-
-/* Typography */
-h1,
-h2,
-h3 {
-	font-family: Futura, Helvetica, Arial, sans-serif;
-}
-
-.intro p {
-	font-family: Futura, Helvetica, Arial, sans-serif;
-	font-size: 3em;
-	font-weight: 100;
-}
-
-
-.skills h3 {
-	text-align: center;
-	text-transform: uppercase;
-}
-
-
-
